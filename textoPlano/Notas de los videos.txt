@@ -157,3 +157,61 @@ Flex box:
 -poner en el input:focus y textarea un background a gris lightgray
 
 usar colorzilla.com/gradient-editor/
+
+Transiciones:
+
+	Hoover con hoover podemos afectar a los hijos del elemento con el hoover, de la sigiente manera: 
+	.clase:hoover hijo_del_elemento
+
+	Las transcciones de tiempo funcionan de la siguiente manera:
+
+	.clase{
+		transition: tiempo en milisegundos(.8s);
+}	
+
+	Las transformaciones funcionan de la siguiente manera:
+		.clase{
+		transform: scale(valor);
+}
+
+
+	Para mover los elementos lo hacemos con la siguiente tecnica:
+
+	.clase{
+	transform: translateY(px);
+}
+
+	.clase:hoover{
+	transform:translateY(px);
+}
+
+
+Transiciones:
+	Las partes de las transcisiones puede tener 2 sintaxis
+	La larga:
+	-Duración: transition-duration: en milisengundos o segundos;
+	-propiedades: transition-property:puedo afectar las siguentes propedades;
+		-background-color
+		-background-position
+		-background-size
+		-border-color
+		-border-width
+		-color
+		-borderradius
+		-font-size
+		-font-weight
+		-height width
+		-left right bottom top
+		-padding
+		-opacity
+
+	-aceleracón: transition-timing-function: existen varios tipos;
+		-ease
+		-ease-in
+		-esae-ot
+		-ease-in-out
+		-step-start
+		-linear
+
+	La corta:
+	-Se ponen los 3 valores en la misma linea respetando el orden tiempo-propiedad-aceleración
