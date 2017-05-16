@@ -1,0 +1,159 @@
+para el logo utlizamos:
+
+<figure> 
+	<img>
+</figure>
+
+Menus: 
+ul: lista desordenada | | ol: lista ordenada
+
+Duplicar elementos con Ctrl + Shift + D
+
+<nav>
+	<ul>
+		<li><a>articulo 1</a></li>
+		<li><a>articulo 2</a></li>
+		<li><a>articulo 3</a></li>
+		<li><a>articulo 4</a></li>
+	</ul>
+</nav>
+
+Contenido:
+
+Titulos: solo puede haber un h1 por página.
+
+botones:
+	<button>
+	</button>
+
+Contenido especifico:
+	<articule> Cada entrada del blog debe ser un article.
+	</article> 
+
+<Article>
+	<img>
+	<h3></h3>
+	<ol>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ol>
+</article>
+
+Buenas practicas:
+
+Poner a las imagenes el atributo Alt: contiene una descripción detallada de la imagen para que se muestre si está no carga por X o Y motivo
+
+si la imagen no es cuadrada, solo poner el hancho, para que el tamaño se calcule automaticamente.
+
+para que habra un link una nueva pesaña se pone el atributo target = "_blank" 
+
+Id: header, portada, contenido.
+
+Estilos:
+
+	Etiqueta en el head : link para enlasar con los estilos.
+
+
+Agregar clase a header, figure class logotipo, nav class menu
+	section class portada, h1 class titulo
+
+Usar comic sans MS como fuente y Monotype corsiva para los textos usar Myriad pro
+
+Disposición: cómo el elemento se va a hubicar en su entorno, es llamado display.
+
+Tipos:
+	inline: si se pone un contenido se pone al lado de ese elemento.
+
+	Block: un bloque usa todo el campo que tenga a sus costados. Por lo que el proximo elemento se hubica abajo de este. 
+
+	inline-block: al usar este atributo se puede ordenar los elementos uno al lado del otro, además de porder modificar sus margenes, bordes y paddings debido a que se comporta como una bloque.
+
+
+Voy en Entendiendo el modelo de caja.
+
+con | y el nombre de la fuente puedo optimizar la carga de la página ver más información en video 3.7 Google fonts
+
+Modelo de caja:
+
+Margin
+border
+padding
+Contenido
+padding
+border
+Margin
+
+Margin: espacio entre la etiqueta y la etqueta subyacente.
+Border: burde de la caja de la etiqueta.
+Padding: espacio entre el contenido de la etiqueta y el borde de la misma.
+
+tipo de borde dashed, es un borde con lineas que tienen un espacio entre ellas
+
+Idea: el titulo del div_2 lo podemos partir en 2 uno con menos gerarquia par que se vea más bonito. lo mismo con el titulo del primero
+
+Positions:
+	relative: relativa con respecto a su contenedor.
+
+	absolute: posición absoluto con respecto a la etiqueta padre relativo más cercana.
+
+	fixed: posición fija. si queremos que un elemento se quede fijo mientras nos movemos usamos esta.
+
+	ineriht: para heredar la posición de su padre
+
+	initial: para reiniciar al valor por defecto
+
+	static: valor por defecto
+
+Podemos usar estas propiedades para mover el elemento a nuestro grupo.
+
+Left 
+Top
+right
+bottom
+
+Border radius funciona como los margin pero comenza desde la esquina superior izquierda.
+
+
+Footer:
+	hacer dos divs para la imagen y los datos de contacto.
+	esta se llama contacto
+	la otra va  llevar un formulario, esta se llama formulario
+	
+	El telefono va a ser un <a> para que se pueda llamar desde el pc o movil. Dentro de ella va una etiqueta strong para la palabra telefono y otra span para el número
+	href="tel:número" así se hacen llamadas.
+	href="mailto:correo" así se envian correos.
+
+Formulario:
+
+Atributos de los campos de input: text, es el basico.
+	email verifica que tenga @ y dominio
+	required da prioridad y valida que tenga contenido.
+	value: es para poner contenido por defecto.
+	placeholder: resive el texto que tenga el campo que da una ayuda al usuario.
+	si agregamos for y id en otro elemento con el mismo valor cuando demos click al for va a hacer focus al id
+	ta seleccionar solo una cosa y que vaya esta información cuando se envie al backend
+	para seleccion multiple los input son de tipo checkbox
+	para poner mucho más texto se pone un textarea, y tiene cols (columnas) y rows (filas)
+	input tipo submit, boton de envio de formulario en el value va el texto que muestra el botón.
+	los values van en todos los inputs que no reciben un texto en si.
+
+Flex box:
+	funciona con display flex. felx es un atributo que afecta a los hijos del item.
+	para trabajar horizontalmente usamos:
+	justify-content:
+		atrbutos: flex-start (por defecto- alineados a la izquierda)
+		flex-end( alineados a la derecha)
+		center: alineado al centro
+		space-around:(mejor dispocición con los margenes de los lados segun su padre)
+		space-between(solo espaciados entre el contenedor) cuadno las cajas se esten po pegar se pasen una abajo de la otra con:
+	flex-wrap:wrap; cuando se juntencomienzan a caer.
+	flex-direction: se usa para cambiar de horizontal a vertical o viseversa.
+	aling-items: center centra perfecta
+
+
+-el tamaño y la posición de los datos de contacto se arregla dandele un tamaño a su padre
+-quitar el out-line de los input y textarea del formulario
+-poner en el input:focus y textarea un background a gris lightgray
+
+usar colorzilla.com/gradient-editor/

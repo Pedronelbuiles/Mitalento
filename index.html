@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head><!-- comentario-->
+		<title>Mi Talento</title>
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/mitalento.css">
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+	</head>
+
+
+	<body>
+		<div class="fondo_portada">
+			<div class="caja animated fadeIn">
+				<header id="header" class="header contenedor_cabeza">
+					<figure class="logo">
+						<img src="img/logo_sin_fondo.png" width="80"  alt="Logo Mi Talento">
+						<h2 class="letras_logo">Mi Talento</h2>
+					</figure>
+					<nav class="menu">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="#funcion">Nosotros</a></li>
+							<li><a href="views/blog.html">Blog</a></li>
+							<li><a href="views/">Tienda</a></li>
+							<li><a href="views/">Donaciones</a></li>
+							<li><a href="#footer">Contacto</a></li>
+						</ul>
+					</nav>
+				</header>
+			</div>
+			<section id="portada" class="portada contenedor_portada"> <!-- portada -->
+				<h1 class="titulo">Todos tenemos algo que ofrecer</h1>
+				<h3 class="titulo-a">Gana dinero con tus talentos</h3>
+				<button><a href="#titulo-b">Conoce más</a></button>
+			</section> 
+		</div>
+
+
+
+		<section class="contenedor">
+			<h2 id="titulo-b" class="titulo-b">¿Cómo funciona?</h2>
+		</section>
+		<div class="funcion contenedor">
+			<section id="funcion" class="contenedor"> <!-- Explicacón -->
+				<article>
+					<img src="img/Dinero.png" width="500px" class="img_dinero">
+					<h3 class="titulo-c">Aprovecha tus talento</h3>
+					<h4 class="titulo-d">Gana dinero por Internet</h4>
+					<p>Todos tenemos talentos, habilidades, una computadora y acceso a Internet; ¿porqué no estás haciendo dinero por Internet ahora?</p>
+				</article>
+			</section>
+		</div>
+		<div class="funcion contenedor div_2">
+			<section id="Nosotros" class="Nosotros contenedor"> <!-- Quienes somos -->
+				<article>
+					<img src="img/Unidos.png" width="400px" class="img_unidos">
+					<h3 class="titulo-c">Somos tu nuevo equipo y estamos aquí para ayudarte a lograrlo</h3>
+					<p>Sabemos que es emprender por Internet por lo que conocemos de primera mano los problemas que puede enfrentar un novato en este mundo de las ganancias online, por está razón te mostramos lo que debes y no debes hacer para tener exito.</p>
+					<p> El verdadero secreto esta en la determinación, ¡Quiero ser esto! ¡Quiero ser aquello! y no estoy dispuesto a renunciar hasta lograrlo! </p>
+				</article>
+			</section>
+		</div>
+
+
+
+		<footer id="footer" class="footer">
+			<div class="contenedor_footer">
+				<div class="contacto">
+					<img src="img/sin_fondo.png" class="img_footer" width="120" height="130">
+					<div class="orden">
+						<a href="tel:+573008865375"><strong>Teléfono</strong><span>+(57) 300 886 5375</span></a>
+						<a href="mailto:mitalentom@gmail.com"><strong>Email</strong><span>mitalentom@gmail.com</span></a>
+					</div>
+				</div>
+				<form class="formulario">
+					<div class="col1">
+						<label for="nombre"> Nombre</label>
+						<input type="text" required id="nombre">
+						<label for="email" > E-mail</label>
+						<input type="email" required id="email">
+						<div class="sexo">
+							<label for="mujer">
+								<input type="radio" name="sexo" value="mujer" checked id="mujer"> Mujer
+							</label>
+							<label for="hombre">
+								<input type="radio" name="sexo" value="hombre" id="hombre"> Hombre
+							</label>
+						</div>
+						<div class="interes">
+							<label for="freelance">
+								<input type="checkbox" name="freelance" checked id="freelance"> Quiero trabajar por Internet
+							</label>
+							<label for="comentarios">
+								<input type="checkbox" name="comentarios" id="comentarios"> comentarios
+							</label>
+							<label for="talentos">
+								<input type="checkbox" name="talentos" id="talentos"> Quiero aprocechar mi talento
+							</label>
+							<label for="otros">
+								<input type="checkbox" name="Otros" id="Otros"> Otros
+							</label>
+						</div>
+					</div>
+					<div class="texto">
+						<label for="hablemos" class="hablemos">Hablemos</label>
+						<textarea id="hablemos" class="hablemos" required="" name="hablemos" cols="30" rows="10"></textarea>
+						<div class="derecha hablemos">	
+							<input type="submit" value="Enviar">
+						</div>
+					</div>
+				</form>
+			</div>
+		</footer>
+		<div class="derechos">
+			<h3> &copy;Copyright <span>Mi Talento</span>  2017 Todos los derechos reservados. <h3>
+		</div>
+	</body>
+</html>

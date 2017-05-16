@@ -1,0 +1,305 @@
+body{
+	font-family: 'Myriad pro', sans-serif;
+	margin: 0;
+}
+
+.contenedor{
+	width: 900px;
+	margin: auto;
+}
+
+.funcion{
+	border: 1px solid black;
+	padding: 10px;
+	border-radius: 12px;
+}
+
+.div_2{
+	margin-top: 40px;
+	border-radius: 12px;
+	margin-bottom: 40px;
+}
+
+.titulo{
+	font-size: 70px;
+	margin-bottom: 0;
+	margin-top: 256px;
+	line-height: 60px;
+}
+
+.titulo-a{
+	font-size: 34px;
+	margin-top: 8px;
+	margin-left: 45px;
+}
+
+.titulo-b{
+	font-size: 35px;
+	margin-bottom: 80px;
+	margin-left: 120px;
+}
+
+.titulo-c{
+	font-size: 30px;
+	margin-bottom: 5px;
+}
+
+.titulo-d{
+	font-size: 19px;
+	margin-bottom: 20px;
+	margin-top: 0;
+	margin-left: 15px;
+}
+
+.contenedor_portada{
+	width: 1100px;
+	margin: auto;
+}
+
+.fondo_portada{
+	background-image: url('../img/womanWorkBig2.jpg');
+	background-size: cover;
+}
+
+.portada{
+	color: white;
+	font-family: 'Monotype corsiva', sans-serif;
+	padding: 20px;
+}
+
+.portada button{
+	margin-bottom: 210px;
+	margin-top: 40px;
+	margin-left: 110px;
+	padding: 5px 20px;
+	border-radius: 10px;
+	cursor: pointer;
+	background-color: white;
+	font-family: 'Monotype corsiva', sans-serif;
+	font-size: 20px;
+	border: none;
+}
+
+.portada button:hover{
+	border: 2px solid black;
+}
+
+.portada button a{
+	text-decoration: none;
+	color: black;
+}	
+
+.header{
+	position: relative;
+}
+
+
+.contenedor_cabeza{
+	width: 1300px;
+	margin: auto;
+	position: fixed;
+	left: 20px;
+}
+
+.caja{
+	background-color: rgb(0,0,0);
+	width: 100%;
+	height: 120px;
+	position: fixed;
+	z-index: 10;
+}
+
+.menu{
+	font-size: 24px;
+	font-family: 'Comic sans MS',sans-serif;
+	display: inline-block;
+	position: absolute;
+	right: 30px;
+	top: 9px;
+}
+
+.menu li{
+	display: inline-block;
+	margin-left: 15px;
+	padding: 5px;
+}
+
+.menu li:hover{
+	background-color: #8B8989;
+	border-radius: 0 15px 0 15px;
+	transition-duration: 0.3s;
+	transition-timing-function: linear;
+	transition-delay: 0;
+}
+
+.menu li a{
+	color: white;
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: yellow;
+}
+
+.logo{
+	display: inline-block;
+}
+
+.logo img{
+	margin-left: 20px;
+}
+
+.letras_logo{
+	display: inline-block;
+	position: relative;
+	bottom: 40px;
+	font-size: 1.6em;
+	font-family: 'Comic sans MS',sans-serif;
+	color: white;
+}
+
+.img_dinero{
+	float: right;
+	overflow: hidden;
+	position: relative;
+	left: 70px;
+	bottom: 85px;
+}
+
+.img_unidos{
+	float: left;
+	overflow: hidden;
+	position: relative;
+	right: 84px;
+	bottom: 31px;
+}
+
+.retraso-1s{
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	animation-delay: 1s;
+}
+.retraso-2s{
+	-webkit-animation-delay: 2s;
+	-moz-animation-delay: 2s;
+	animation-delay: 2s;
+}
+
+.footer{
+	background-color: black;
+}
+
+.img_footer{
+	position: relative;
+	right: -85px;
+}
+
+.contacto{
+	display: flex;
+	width: 249px;
+	flex-wrap: wrap; 
+	margin: 20px;
+	flex-direction: column;
+}
+
+.orden{
+	display: flex;
+	width: 350px;
+	justify-content: space-between;
+	margin-top: 35px;
+}
+
+.orden strong{
+	margin-bottom: 8px;
+}
+
+.contacto strong{
+	display: block;
+}
+
+.contacto a{
+	color: white;
+	text-decoration: none;
+
+}
+
+.contenedor_footer{
+	width: 1200px;
+	height: 280px;
+	margin:auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+.formulario{
+	color: white;
+	display: flex;
+	width: 600px;
+}
+
+.formulario input:focus, .formulario textarea:focus{
+	background-color: lightgray;
+	outline: 0;
+}
+
+.col1, .texto{
+	display: flex;
+	flex-direction: column;
+}
+
+.col1{
+	margin: 15px;
+}
+
+#email, #nombre{
+	margin: 10px 0;
+}
+
+.col1 .sexo, .interes input{
+	margin-bottom: 10px;
+}
+
+.texto{
+	padding-top: 15px;
+	align-items: flex-start;
+}
+
+.derecha{
+	display: flex;
+	justify-content: flex-end;
+	width: 235px;
+}
+
+.derecha input{
+	padding: 5px 20px;
+	border-radius: 10px;
+	cursor: pointer;
+	background-color: white;
+	font-family: 'Monotype corsiva', sans-serif;
+	font-size: 20px;
+	border: none;
+}
+
+.derecha input:hover{
+	border: 5px solid rgb(83,83,83);
+}
+
+.hablemos{
+	margin: 10px 0;
+}
+
+.derechos {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	text-align: center;
+	color: white;
+	background-color: black;
+	margin: 0;
+	padding: 4px;
+}
+
+.derechos span{
+	font-size: 20px;
+}
+
