@@ -87,11 +87,7 @@ body{
 
 .portada button:hover{
 	transform: scale(1.2);
-<<<<<<< HEAD
 	font-weight: 600;
-=======
-	transition-property: font-weight:800; 
->>>>>>> d4e641b5e7088c5a7e66493a941514d7b5cadf15
 }
 
 .portada button a{
