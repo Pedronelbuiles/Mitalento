@@ -87,6 +87,7 @@ body{
 
 .portada button:hover{
 	transform: scale(1.2);
+	box-shadow: -5px -5px 0 0 lightgray inset;
 }
 
 .portada button a{
@@ -150,17 +151,21 @@ body{
 	display: inline-block;
 }
 
-.logo img{
+.logo #logo{
 	margin-left: 20px;
 }
 
-.letras_logo{
-	display: inline-block;
+.logo #logo:hover{
+	transition: 1.5s;
+	transform: rotate(360deg);
+	transform: ease-in-out;
+}
+
+.letra_logo{
+	width: 153px;
 	position: relative;
-	bottom: 40px;
-	font-size: 1.6em;
-	font-family: 'Comic sans MS',sans-serif;
-	color: white;
+	top: -20px;
+	left: 12px;
 }
 
 .img_dinero{
@@ -288,6 +293,7 @@ body{
 
 .derecha input:hover{
 	transform: scale(1.2);
+	box-shadow: -8px -8px 0 0 lightgray inset;
 }
 
 .hablemos{

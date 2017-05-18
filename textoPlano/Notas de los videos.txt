@@ -215,3 +215,15 @@ Transiciones:
 
 	La corta:
 	-Se ponen los 3 valores en la misma linea respetando el orden tiempo-propiedad-aceleración
+
+
+Transform:
+	Podemos modificar la forma y la posición sn afectar a los elementos que lo rodean.
+	los tipos de transformaciones son:
+	-Rotación : rotate(en grados {deg});
+	-Escala : scale(va de 0 a lo que quiera);
+	-Sesgado : skew(en grados{deg});
+	-Traslación : translateEJE(px);con translate3d(EJEx(px), EJEy(px), EJEZ(px); para que funcione el ejeZ el padre debe tener perspective: númeropx;
+	-mixtas : transform: rotate() scale(2) skew(deg) traslateX(px);
+
+	se declara con la propiedad transform
