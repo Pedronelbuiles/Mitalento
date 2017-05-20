@@ -68,10 +68,11 @@ body{
 	height: 680px;
 }
 
-.portada button{
+.portada input{
 	margin-bottom: 210px;
-	margin-top: 40px;
-	margin-left: 110px;
+	position: relative;
+	left: 110px;
+	top: 40px;
 	padding: 5px 20px;
 	border-radius: 10px;
 	cursor: pointer;
@@ -79,21 +80,23 @@ body{
 	font-family: 'Monotype corsiva', sans-serif;
 	font-size: 20px;
 	border: none;
+	text-decoration: none;
+	color: black;
 }
 
 .transicion{
 	transition: .4s;
 }
 
-.portada button:hover{
+.portada input:hover{
 	transform: scale(1.2);
 	box-shadow: -5px -5px 0 0 lightgray inset;
 }
 
-.portada button a{
-	text-decoration: none;
-	color: black;
-}	
+.portada input:active{
+	transform: scale(1.1);
+}
+
 
 .header{
 	position: relative;
@@ -156,9 +159,7 @@ body{
 }
 
 .logo #logo:hover{
-	transition: 1.5s;
-	transform: rotate(360deg);
-	transform: ease-in-out;
+	animation: 1.5s rotar infinite;
 }
 
 .letra_logo{
@@ -296,6 +297,10 @@ body{
 	box-shadow: -8px -8px 0 0 lightgray inset;
 }
 
+.derecha input:active{
+	transform: scale(1.1);
+}
+
 .hablemos{
 	margin: 10px 0;
 }
@@ -314,3 +319,9 @@ body{
 	font-size: 20px;
 }
 
+@keyframes rotar{
+	to{
+		transform: rotate(360deg);
+		transform: ease-in-out;
+	}
+}

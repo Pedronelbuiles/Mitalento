@@ -1,11 +1,12 @@
 				Cosas para realizar:
 
 
-		1.Terminar los video de desarrollo web
+		1.Terminar los videos de desarrollo web (listo falta casi todo el ultimo desafio de centrar).
 		2.Terminar la página de Mi talento
 		3.Terminar los videos de responsive desing
 		4.Terminar la página de Websol
 		5.Terminar página de Regalos para Medellin
+		5.1 hacer los cursos que tengo listos https://learndigital.withgoogle.com/garagedigital/dash que son de google
 		6.Terminar página sobre Inteligencia Emocional (Hacer los ejercicios de leeme)
 		7.Terminar página para ayudar a las personas a utilizar la tecnologia (preparar interfaz para crear app)
 		8.Terminar página de portafolio
@@ -14,3 +15,4 @@
 		11.Terminar página de Funpp (preparar interfaz para crear app)
 		12.Actualizar perfiles freelance y redes sociales
 		13.Terminar los otros cursos.
+		14.Buscar lo relacionado con el tunder shock, me interesa ese producto.

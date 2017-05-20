@@ -227,3 +227,161 @@ Transform:
 	-mixtas : transform: rotate() scale(2) skew(deg) traslateX(px);
 
 	se declara con la propiedad transform
+
+
+Truco para las imagenes: si inspeccionas la imagen puedes obtenr el link de la misma y así la podemos utlizar en otras páginas.
+
+Seudo clases:
+
+:after{
+	content: "contenido";
+}
+
+:last-child:after o before o lo que sea el caso{
+	se hace lo que queramos
+}
+
+Para hubicar un elemento ensima de otro lo que hacemos es ponerle una posicion absoluta y relativa a su padre.
+
+Con display: inline; el elemento se comporta como texto.
+
+Librerias para formularios: jquery validation es uno; para angular o react busca angular from validation or angularjs from validation
+
+para heredar las propiedades del padre como el alto podemos poner height:inherit
+
+Propiedad box-shadow:
+	box-shadow: tipo x y difuminado color;
+		tipo: inset, dentro sin nada queda por default
+		x y: posicion en los ejes.
+		difuminado: grado del tamaño conr especto a sus otros vertices.
+		Color: el que quiras.
+
+Para que una propiedad css se vea por ensima de todas las otras reglas le ponemos al final !important;
+
+Para que el boton se haga pequeño cuando le den click, lo que hacemos es darle una pseudoclase :active {
+
+:active{
+	transform: scale(.9);
+}
+ y si queremos le damos una transición.
+
+Puedes alinear elementos de diferentes formas una de ellas es con flex-box con la propiedad aling-items:center.
+o sin flex-box con la propiedad vertical-aling: middle;
+
+Open graph facebook.es la forma de poner en las páginas los estilos para que aparescan estilizados cuando se publiquen en facebook: toda la documentación esta en:
+
+https://developers.facebook.com/docs/sharing/webmasters
+
+Segundo reto:
+
+Si queres que un elemento tenga todo el tamaño del monitor con posiciones absolutas debes poner las propiedades left:0; rigth: 0;
+
+Este desafio lo resolvemos con flex-box.
+
+Lo hacemos poniendole display: flex al body.
+le damos el alto al padre de todo que es el bodyes min-height:100vh; las medidas son viewport height y width
+Le damos un flex-drection:colum;
+
+y para hacer el tamaño del buerpo lo ponemos la propiedad flex:1;
+
+Libros recomendados:
+	Css secrets - better solutions to everyday web desing problems.
+
+	Combinación de frameworks: front-end reactjs
+		para ajax: superagent.
+		para manejar datos y como fluyen: reducts.
+		aprender python con django
+		para estilos: stylus.
+		para fechas: moments.
+
+Transiciones con hoover tercer reto:
+
+	Podemos hubicar un background con:
+     background-position: pos.horizontal pos.vertical;
+Ejemplo      background-position: center bottom;
+y quitamos el background-repeat: no-repeat;
+
+Para poner una transformación continua:
+	Aplicamos animaciones:
+	animation: tiempo nombre_de_la_animación repetición;
+ejemplo animation: 2s animacion1 infinite;
+
+	@keyframes animacion1 {
+		puede ser con proporciones: 0%-50%-100%
+		o con el metodo from-to
+	ejemplo:
+		from{
+			Propiedades de css se ponen iguales
+			border:1px solid black;
+	}
+		to{
+			Propiedades de css se ponen iguales
+			border:1px solid black;
+	}
+
+	utilzar los porcentajes:
+		0%{
+			ponemos las propiedades css		
+	}
+		50%{
+			ponemos las propiedades css
+	}
+		100%{
+			ponemos las propiedades css
+	}
+}
+
+podemos conbinar las propiedades de transform.
+
+Para hacer elementos responsive con position absolute, debemos poner los alementos en un contenedor (div) y ponerle las dimenciones despues hubicarlo en left, rigth, bottom o top según sea el caso y despues darle un margin como si fuera un elemento con display block, es decir:
+ le ponemos margin: 0 auto;
+
+
+Efecto parallax
+
+	Capturamos el evento de la pantalla:
+		window.addEventListener('scroll' ,function(e){
+		console.log(e);
+	});
+
+	Saber el desplazamiento en el eje Y:
+		Console.log(window.scrollY);
+
+	Cambiar las propiedades: 
+
+	primero definimos la variable:
+		const $nombre_de_la_constante = document.getElementById('id');
+
+	Cambiamos el margen según se mueva el scroll:
+
+	$nombre_de_la_constante.style.marginTop = window.scrollY + 'medida(px,em,etc)';
+
+	mover el backgroun position
+	$nombre_de_la_constante.style.backgroundPosition = window.scrollY + 'medida(px,em,etc)';
+	Lo podemos poner negativo: '-' window.scrollY + 'medida(px,em,etc)';
+	para calcular un movimiento lo que hacemos es poner una variable donde le sumamos lo que queremos a window.scrollY; y modificamos así:
+	$nombre_de_la_constante.style.backgroundPosition = variable + 'medida(px,em,etc)';
+
+Hacer una transfiormación en JS:
+	$nombre_de_la_constante.style.transfrom = 'rotate(' + position(*#de rotación en porcentaje .2 .5) + 'deg)';
+
+--
+
+Mascaras en Css:
+
+	Hacer un div con la clas e de la mascara, le damos el background de la imagen que queremos que sea la sombra; le damos un ancho y alto, ahora debemos posicionarlo por lo que al elemento que queremos cambiar le damos position:relative, y al shade le damos position:absolute y los movemos top,right, left, bottom hasta que este este ensima de la imagen a cambiar con scroll.
+
+le damos un id a la sombra para poderla mover con JS
+
+propiedad background-position:
+	background-position: #px;
+
+
+
+Ahora debemos poner otroa mascara que nos muestre solo lo que queremos de la sombra con la propiedad:
+	mask-imgen: url(); y usamos el webkit para navegadores
+
+y ahora lo hubicamos esactamente en el lugar que queremos.
+
+Buscar:
+	Back-face-visibility.

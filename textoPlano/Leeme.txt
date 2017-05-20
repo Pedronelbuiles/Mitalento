@@ -24,7 +24,7 @@
 PX project: Tim ferris para poder leer 4 veces más rapido.
 
 	Objetivos
-	1.Minimizar las fijaciones/lineas
+	1.Minimizar las fijaciones*lineas
 	2.Minimizar la regreción
 	3.Aprovechar la vsión periferica
 

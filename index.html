@@ -19,7 +19,7 @@
 					<nav class="menu">
 						<ul>
 							<li><a href="index.html">Home</a></li>
-							<li><a href="#funcion">Nosotros</a></li>
+							<li><a href="views/">Nosotros</a></li>
 							<li><a href="views/blog.html">Blog</a></li>
 							<li><a href="views/">Tienda</a></li>
 							<li><a href="views/">Donaciones</a></li>
@@ -31,11 +31,9 @@
 			<section id="portada" class="portada contenedor_portada"> <!-- portada -->
 				<h1 class="titulo">Todos tenemos algo que ofrecer</h1>
 				<h3 class="titulo-a">Gana dinero con tus talentos</h3>
-				<button class="transicion"><a href="#titulo-b">Conoce más</a></button>
+				<input type="button" value="Conoce más" id="btnPortada">
 			</section> 
 		</div>
-
-
 
 		<section class="contenedor">
 			<h2 id="titulo-b" class="titulo-b">¿Cómo funciona?</h2>
@@ -60,8 +58,6 @@
 				</article>
 			</section>
 		</div>
-
-
 
 		<footer id="footer" class="footer">
 			<div class="contenedor_footer">
@@ -114,5 +110,12 @@
 		<div class="derechos">
 			<h3> &copy;Copyright <span>Mi Talento</span>  2017 Todos los derechos reservados. <h3>
 		</div>
+		<script type="text/javascript">
+			const btnPortada = document.getElementById('btnPortada');
+
+			btnPortada.addEventListener('hover' , function () {
+				btnPortada.style.transition = '4s';
+			})
+		</script>
 	</body>
 </html>
