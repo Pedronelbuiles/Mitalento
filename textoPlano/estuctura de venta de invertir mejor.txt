@@ -1,0 +1,27 @@
+Section
+   h2 titulo
+   ul
+      li
+         div
+            h3 titulo producto
+               a link de compra
+            div precio
+               p
+                  a link de compra con valor
+		   span pesos colobianos
+               p precio en dolares
+	       p IVA incluido
+            div descripción del producto
+               p texto con el tiempo y la descripción
+               ul
+                  li para mostrar el check list del contenido
+            footer pie del producto
+               p
+                  a link de Más información
+               a link de compra con lema COMPRAR YA.
+         /div
+      /li
+      otros li
+      /li
+   /ul
+/section
