@@ -1,0 +1,78 @@
+			Botones de pago:
+
+	-Payu:
+		- Referencia: 100 
+		- Descripcion: Ebook
+		- Codigo : 
+				<form method="post" action="https://gateway.payulatam.com/ppp-web-gateway/pb.zul" accept-charset="UTF-8">
+				  <input type="image" border="0" alt="" src="http://www.payulatam.com/img-secure-2015/boton_pagar_mediano.png" onClick="this.form.urlOrigen.value = window.location.href;"/>
+				  <input name="buttonId" type="hidden" value="HOfGe+UAHJJmkpN49pUiNwikXiCwv1QtxcYgWG2xuS09CDsUTvH1ww=="/>
+				  <input name="merchantId" type="hidden" value="639078"/>
+				  <input name="accountId" type="hidden" value="641444"/>
+				  <input name="description" type="hidden" value="Ebook"/>
+				  <input name="referenceCode" type="hidden" value="100"/>
+				  <input name="amount" type="hidden" value="20000"/>
+				  <input name="tax" type="hidden" value="0"/>
+				  <input name="taxReturnBase" type="hidden" value="0"/>
+				  <input name="currency" type="hidden" value="COP"/>
+				  <input name="lng" type="hidden" value="es"/>
+				  <input name="approvedResponseUrl" type="hidden" value="https://drive.google.com/file/d/0BxOJpxskk1Z7dnhTeUEweXlkcFU/view"/>
+				  <input name="declinedResponseUrl" type="hidden" value="https://pedronelbuiles.github.io/Mitalento/"/>
+				  <input name="pendingResponseUrl" type="hidden" value="https://pedronelbuiles.github.io/Mitalento/"/>
+				  <input name="displayShippingInformation" type="hidden" value="NO"/>
+				  <input name="sourceUrl" id="urlOrigen" value="" type="hidden"/>
+				  <input name="buttonType" value="SIMPLE" type="hidden"/>
+				  <input name="signature" value="dbd29de1b00a2d1838f837df958a6ba391b431c468a576f10ac643acd2e2dacd" type="hidden"/>
+				</form>
+
+		-Referencia: N/A
+		-Descripción: Boton de Paypal
+		-codigo:
+				<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+				<input type="hidden" name="cmd" value="_s-xclick">
+				<input type="hidden" name="hosted_button_id" value="UU6VW75NHY36A">
+				<table>
+				<tr><td><input type="hidden" name="on0" value="Donaciones">Donaciones</td></tr><tr><td><select name="os0">
+					<option value="Un">Un : $1.00 USD - mensual</option>
+					<option value="Cinco">Cinco : $5.00 USD - mensual</option>
+					<option value="Diez">Diez : $10.00 USD - mensual</option>
+					<option value="Veinte">Veinte : $20.00 USD - mensual</option>
+					<option value="Cincuenta">Cincuenta : $50.00 USD - mensual</option>
+					<option value="Cien">Cien : $100.00 USD - mensual</option>
+					<option value="Doscientos">Doscientos : $200.00 USD - mensual</option>
+					<option value="Quinientos">Quinientos : $500.00 USD - mensual</option>
+				</select> </td></tr>
+				</table>
+				<input type="hidden" name="currency_code" value="USD">
+				<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribeCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+				<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+				</form>
+
+
+		-Referencia: 900
+		-Descripción: donación con payu
+		-codigo:
+				<form method="post" action="https://gateway.payulatam.com/ppp-web-gateway/pb.zul" accept-charset="UTF-8">
+				  <input type="image" border="0" alt="" src="http://www.payulatam.com/img-secure-2015/boton_pagar_mediano.png" onClick="this.form.urlOrigen.value = window.location.href;"/>
+				  <input name="buttonId" type="hidden" value="RRvvN28X2mQFWIS7MTZVX7BA3/nYDW2NA8hZpMYq8kJWqTM3I7HeEQ=="/>
+				  <input name="merchantId" type="hidden" value="639078"/>
+				  <input name="accountId" type="hidden" value="641444"/>
+				  <input name="description" type="hidden" value="Donación"/>
+				  <input name="referenceCode" type="hidden" value="900"/>
+				  <input name="amount" type="hidden" value="20000"/>
+				  <input name="tax" type="hidden" value="0"/>
+				  <input name="taxReturnBase" type="hidden" value="0"/>
+				  <input name="currency" type="hidden" value="COP"/>
+				  <input name="lng" type="hidden" value="es"/>
+				  <input name="approvedResponseUrl" type="hidden" value="https://www.facebook.com/Mi-Talento-1886912491584512/"/>
+				  <input name="declinedResponseUrl" type="hidden" value="https://www.facebook.com/Mi-Talento-1886912491584512/"/>
+				  <input name="pendingResponseUrl" type="hidden" value="https://www.facebook.com/Mi-Talento-1886912491584512/"/>
+				  <input name="displayShippingInformation" type="hidden" value="NO"/>
+				  <input name="displayBuyerComments" type="hidden" value="true"/>
+				  <input name="buyerCommentsLabel" type="hidden" value="es:¡Gracias por tu donación!|en:¡Thanks for you donate!"/>
+				  <input name="sourceUrl" id="urlOrigen" value="" type="hidden"/>
+				  <input name="buttonType" value="SIMPLE" type="hidden"/>
+				  <input name="signature" value="b487a234ebcd50bb71f6e23c06e4789bf879b0d4b47d6bd1b25fe04dcc30b2b6" type="hidden"/>
+				</form>
+
+		-Referencia: 

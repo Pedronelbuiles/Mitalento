@@ -1,0 +1,21 @@
+.banner{
+	width: 1000px;
+	position: relative;
+	top: 120px;
+	margin: auto;
+}
+
+.startup{
+	width: 1000px;
+	position: relative;
+	margin: auto;
+	top: 120px;
+	text-align: center;
+}
+
+.startup h1{
+	font-family: 'Monotype corsiva', sans-serif;
+	font-size: 2.2em;
+	margin-left: 30px; 
+	margin-bottom: 30px;
+}

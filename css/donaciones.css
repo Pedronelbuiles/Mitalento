@@ -1,0 +1,108 @@
+.gracias{
+	position: relative;
+	top: 120px;
+	height: 520px;
+	background: url(../img/gracias.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.agradecer{
+	position: absolute;
+	bottom: 147px;
+	left: 130px;
+	display: flex;
+	flex-direction: column;
+	font-family: 'Monotype corsiva', sans-serif;
+	color: white;
+}
+
+.agradecer h1{
+	font-size: 4em;
+	margin: 0;
+}
+
+.corazon{
+	margin-left: 266px;
+}
+
+.donacion{
+	width: 1000px;
+	position: relative;
+	border: 2px solid black;
+	top: 150px;
+	margin: 0 auto;
+	padding: 10px;
+	border-radius: 35px 0 35px 0;
+	background-color: rgba(158, 158, 158, 0.19);
+}
+
+.donacion h3{
+	text-align: center;
+	font-family: 'Tahoma', sans-serif;
+	font-size: 1.3em;
+}
+
+.donacion p{
+	line-height: 23px;
+	font-size: 1.2em;
+}
+
+.donacion span{
+	text-decoration: line-through;
+}
+
+.dona{
+	width: 1200px;
+	display: flex;
+	position: relative;
+	margin:  0 auto;
+	top: 170px;
+	flex-direction: column;
+	margin-bottom: 300px;
+}
+
+.medios{
+	display: flex;
+	justify-content: space-between;
+}
+
+.alMedio{
+	text-align: center;
+	font-family: 'Tahoma', sans-serif;
+	font-size: 1.3em;
+	margin-bottom: 40px;
+}
+
+.banco{
+	margin: 0;
+	text-align: center;
+}
+
+.centro table{
+	margin: auto;
+}
+
+.centro input{
+	position: relative;
+	left: 105px;
+}
+
+.verMas h4,h5{
+	text-align: center;
+}
+
+.payu{
+	width: 138px;
+	height: 34px;
+	overflow: hidden;
+	position: relative;
+	left: 110px;
+	top: 25px;
+}
+
+.payu input{
+	position: relative;
+	bottom: 20px;
+}
+

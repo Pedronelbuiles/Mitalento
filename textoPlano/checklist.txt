@@ -4,7 +4,7 @@
 		1.Terminar los videos de desarrollo web (listo, falta casi todo el ultimo desafio de centrar).
 		2.Terminar la página de Mi talento 
 		2.1 Inscribir Mi talento en https://docs.google.com/forms/d/17AVOpGIVzBsxuHZNWCL_Y7RYNs5VTTVDn_sfyt1z93U/viewform?edit_requested=true
-		3.Terminar los videos de responsive desing
+		3.Terminar los videos de responsive desing (aplicando lo aprendido en Mi talento)
 		4.Terminar la página de Websol
 		5.Terminar página de Regalos para Medellin
 		5.1 hacer los cursos que tengo listos https://learndigital.withgoogle.com/garagedigital/dash que son de google
