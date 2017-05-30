@@ -621,17 +621,17 @@ p{
 
 @media screen and (max-width: 750px){
 	.menu{
-		
-	}
-	.menu ul{
 		display: block;
 		position: relative;
+	}
+	.menu ul{
 		display: inline-grid;
 		background:black;
 		position: absolute;
 		left: -332px;
 		transition: .3s;
 		border-radius: 25px;
+		height: 285px;
 	}
 	.menu ul li{
 		width: 247px;
