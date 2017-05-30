@@ -1157,6 +1157,9 @@ p{
 	.medios{
 		display: block;
 	}
+	.payu{
+		top: 0;
+	}
 }
 
 @media screen and (max-width: 530px){
