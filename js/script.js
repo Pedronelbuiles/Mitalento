@@ -9,4 +9,6 @@ function addClass () {
 
 $("img.lazy").lazyload();
 
+var toch = new Hammer($btnMenu, myOptions);
+toch.on('pan', addClass);
 
