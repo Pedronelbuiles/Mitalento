@@ -623,14 +623,15 @@ p{
 	.menu{
 		display: block;
 		position: relative;
-	}
-	.menu ul{
 		display: inline-grid;
 		background:black;
 		position: absolute;
 		left: -332px;
 		transition: .3s;
 		border-radius: 25px;
+	}
+	.menu ul{
+
 	}
 	.menu ul li{
 		width: 247px;
