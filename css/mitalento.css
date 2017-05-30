@@ -621,6 +621,9 @@ p{
 
 @media screen and (max-width: 750px){
 	.menu{
+		
+	}
+	.menu ul{
 		display: block;
 		position: relative;
 		display: inline-grid;
@@ -629,9 +632,6 @@ p{
 		left: -332px;
 		transition: .3s;
 		border-radius: 25px;
-	}
-	.menu ul{
-
 	}
 	.menu ul li{
 		width: 247px;
