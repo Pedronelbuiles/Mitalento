@@ -631,6 +631,7 @@ p{
 		left: -100%;
 		transition: .3s;
 		border-radius: 25px;
+		width: 292px;
 	}
 	.menu ul li{
 		width: 247px;
