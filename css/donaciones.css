@@ -27,7 +27,7 @@
 }
 
 .donacion{
-	width: 1000px;
+	max-width: 1000px;
 	position: relative;
 	border: 2px solid black;
 	top: 150px;
@@ -53,7 +53,7 @@
 }
 
 .dona{
-	width: 1200px;
+	max-width: 1200px;
 	display: flex;
 	position: relative;
 	margin:  0 auto;
@@ -65,6 +65,7 @@
 .medios{
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .alMedio{
@@ -106,3 +107,7 @@
 	bottom: 20px;
 }
 
+.redesS{
+	display: flex;
+	justify-content: space-around;
+}

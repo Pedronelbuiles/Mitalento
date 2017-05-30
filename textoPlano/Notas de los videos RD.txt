@@ -1,0 +1,27 @@
+		Curso de responsive desing
+
+	-Los cambios que se hagan según las dimenciones del dispisitivo se hace con un media-query.
+	
+	-Devemos poner los tamaños relativos , nada especifico , a menos que tengamos todo declarado según cada una de las dimenciones.
+
+
+	-Lo mas recomendable en vez de darle width le damos un máx width, en conjunto con la propiedad width auto.
+
+	La forma de declarar un media-query es: 
+
+		@media screen and (condición){
+			Cambios
+		}
+	Ejemplo
+
+		@media screen and (max-width:800px){
+			.contenedor{
+				width:auto;
+				max-width:800px;
+			}
+		}
+
+
+
+
+	Lazy load de js es lo mejor!!!

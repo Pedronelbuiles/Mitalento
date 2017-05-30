@@ -1,9 +1,13 @@
 .advertencia{
-	width: 1000px;	
+	max-width: 1000px;	
 	position: relative;
 	top: 120px;
 	margin: auto;
 	display: flex;
+}
+
+.fondoAdvertencia{
+	width: 100%;
 }
 
 .advertencia img{
@@ -45,8 +49,9 @@
 }
 
 .tienda{
-	width: 1000px;
+	max-width: 1000px;
 	display: flex;
+	flex-wrap: wrap;
 	position: relative;
 	margin:  0 auto;
 	top: 170px;

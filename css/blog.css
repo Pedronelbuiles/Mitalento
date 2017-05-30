@@ -1,10 +1,15 @@
 .articulo_pincipal{
 	position: relative;
 	top: 126px;
+	max-width: 1000px;
+}
+
+.img_principal{
+	width: 100%;
 }
 
 .blog{
-	width: 1000px;
+	max-width: 1000px;
 	margin: auto;
 }
 

@@ -6,19 +6,19 @@
 		<meta charset="utf-8">
 		<link rel="shorcut icon" href="img/logo_sin_fondo.png">
 		<link rel="stylesheet" type="text/css" href="css/mitalento.css">
-		<link rel="stylesheet" type="text/css" href="css/animate.css">
 	</head>
 
 	<body>
 		<div class="fondo_portada">
-			<div class="caja animated fadeIn">
+			<div class="caja">
 				<header id="header" class="header contenedor_cabeza">
 					<figure class="logo">
 						<img src="img/logo_sin_fondo.png" id="logo" width="80"  alt="Logo Mi Talento">
 						<img src="img/Mitalento.png" class="letra_logo">
 					</figure>
+					<span class="icon-menu btn-menu" id="btn-menu"></span>
 					<nav class="menu">
-						<ul>
+						<ul id="menu">
 							<li><a href="index.html">Home</a></li>
 							<li><a href="views/nosotros.html">Nosotros</a></li>
 							<li><a href="views/blog.html">Blog</a></li>
@@ -52,7 +52,7 @@
 		<div class="funcion contenedor crece">
 			<section id="funcion" class="contenedor"> <!-- Explicacón -->
 				<article>
-					<img src="img/Dinero.png" width="500px" class="img_dinero">
+					<img data-original="img/Dinero.png" width="500" class="img_dinero lazy" >
 					<h3 class="titulo-c">Aprovecha tus talento y</h3>
 					<h4 class="titulo-d">Gana dinero por Internet.</h4>
 					<p>Lo primero es explicarte las pautas básicas, cómo se trabaja por Internet, cuales son los trabajos que se pueden hacer, quién lo puede hacer y lo más importante conocer tus talentos y habilidades para entrar en la mentalidad correcta, porque a diferencia de muchos otros sitios web aquí te diremos la verdad, sin ningún tipo interés oculto, aunque te pueda resultar crudo y desalentador, porque resulta que trabajar por Internet difiere mucho de otros empleos, tanto así que se asemeja más a una disciplina deportiva; por lo que debes tener siempre en cuenta esto: <div class="sobre"><span class="resaltar">“Los resultados que obtenemos trabajando por Internet están directamente relacionados con nuestro empeño y determinación”</span>.</p></div>
@@ -73,7 +73,7 @@
 		<div class="funcion contenedor div_2 crece">
 			<section id="Nosotros" class="Nosotros contenedor"> <!-- Quienes somos -->
 				<article>
-					<img src="img/Unidos.png" width="400px" class="img_unidos">
+					<img data-original="img/Unidos.png" width="400" class="img_unidos lazy">
 					<h3 class="titulo-c">Somos tu nuevo equipo y estamos aquí para ayudarte a lograrlo.</h3>
 					<p>Si no llegases a comprar ningún producto de la tienda o hacer alguna donación nuestra ganancia es la satisfacción de que ayudamos a una persona a realizar sus sueños tal como nosotros lo hicimos. Sabemos que cuando estés trabajando desde casa vas a querer compartir la felicidad que sientes con tu trabajo por lo que otra cosa que ganaremos es un compañero con ganas de compartir su conocimiento y hacer feliz a más y más personas, nosotros pensamos en cómo ayudarte en ese punto y es muy fácil, solo debes compartir nuestros contenidos en tus redes sociales y así mostrarle a tus conocidos cómo pueden ser más felices gracias a Internet.</p>
 					<p><span class="resaltar"> El verdadero secreto esta en la determinación, ¡Quiero ser esto! ¡Quiero ser aquello! y no estoy dispuesto a renunciar hasta lograrlo!</span> </p>
@@ -82,12 +82,12 @@
 		</div>
 		<section class="contenedor final">
 			<h2 class="titulo-e">ANÍMATE Y COMIENZA A GANAR DINERO POR INTERNET CON:</h2>
-			<img src="img/Mitalento.png">
+			<img data-original="img/Mitalento.png" width="310" height="100" class="lazy">
 		</section>
 		<footer id="footer" class="footer">
 			<div class="contenedor_footer">
 				<div class="contacto">
-					<img src="img/sin_fondo.png" class="img_footer" width="120" height="130">
+					<img data-original="img/sin_fondo.png" class="img_footer lazy" width="120" height="130">
 					<div class="orden">
 						<a href="tel:+573008865375"><strong>Teléfono</strong><span>+(57) 300 886 5375</span></a>
 						<a href="mailto:mitalentom@gmail.com"><strong>Email</strong><span>mitalentom@gmail.com</span></a>
@@ -135,5 +135,8 @@
 		<div class="derechos">
 			<h3> &copy;Copyright <span>Mi Talento</span>  2017 Todos los derechos reservados. <h3>
 		</div>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.lazyload.min.js"></script>
+		<script src="js/script.js"></script>
 	</body>
 </html>

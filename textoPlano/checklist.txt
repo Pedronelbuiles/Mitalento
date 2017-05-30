@@ -4,6 +4,7 @@
 		1.Terminar los videos de desarrollo web (listo, falta casi todo el ultimo desafio de centrar).
 		2.Terminar la página de Mi talento 
 		2.1 Inscribir Mi talento en https://docs.google.com/forms/d/17AVOpGIVzBsxuHZNWCL_Y7RYNs5VTTVDn_sfyt1z93U/viewform?edit_requested=true
+		2.2 Terminar página de Mimame (Empresa que se dedica a hacer mimos a domicilio o en publico se cobra por horas 20000 la hora)
 		3.Terminar los videos de responsive desing (aplicando lo aprendido en Mi talento)
 		4.Terminar la página de Websol
 		5.Terminar página de Regalos para Medellin
@@ -17,3 +18,11 @@
 		12.Actualizar perfiles freelance y redes sociales
 		13.Terminar los otros cursos.
 		14.Buscar lo relacionado con el tunder shock, me interesa ese producto.
+
+
+			Checklist del día:
+
+		1. Terminar la parte de responsive de la página.
+		2. Hacer que el formulario de contacto sirva.
+		3. Terminar las partes copiadas de Tienda y Donaciones.
+		4. Poner redes sociales de nosotros y en la columna 1 abajo botones.
