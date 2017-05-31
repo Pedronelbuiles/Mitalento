@@ -440,12 +440,12 @@ p{
 
 .socialmedia{
 	margin-top: 10px;
-	padding: 10px 0;
 }
 
 .btn-redes{
 	display: block;
 	margin: auto;
+	padding: 10px 0;
 }
 
 /*Estilos del blog*/
