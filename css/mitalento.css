@@ -438,6 +438,11 @@ p{
 		left: 0 !important;
 }
 
+.socialmedia{
+	margin-top: 10px;
+	display: flex;
+}
+
 /*Estilos del blog*/
 .articulo_pincipal{
 	position: relative;
