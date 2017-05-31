@@ -2,16 +2,17 @@
 
 
 		1.Terminar los videos de desarrollo web (listo, falta casi todo el ultimo desafio de centrar).
-		2.Terminar la página de Mi talento 
-		2.1 Inscribir Mi talento en https://docs.google.com/forms/d/17AVOpGIVzBsxuHZNWCL_Y7RYNs5VTTVDn_sfyt1z93U/viewform?edit_requested=true
-		2.2 Terminar página de Mimame (Empresa que se dedica a hacer mimos a domicilio o en publico se cobra por horas 20000 la hora)
-		3.Terminar los videos de responsive desing (aplicando lo aprendido en Mi talento)
-		4.Terminar la página de Websol
+		2.Terminar los videos de responsive desing (aplicando lo aprendido en Mi talento)
+		2.1 Terminar la página de Mi talento  (Casi listo falta completar el contenido y el checklist del dia).
+		2.2 Terminar página de portafolio
+		3.Terminar la página de Websol
+		4.Inscribir Mi talento en https://docs.google.com/forms/d/17AVOpGIVzBsxuHZNWCL_Y7RYNs5VTTVDn_sfyt1z93U/viewform?edit_requested=true
 		5.Terminar página de Regalos para Medellin
+		5.0 Terminar la plataforma de discipline
 		5.1 hacer los cursos que tengo listos https://learndigital.withgoogle.com/garagedigital/dash que son de google
 		6.Terminar página sobre Inteligencia Emocional (Hacer los ejercicios de leeme)
 		7.Terminar página para ayudar a las personas a utilizar la tecnologia (preparar interfaz para crear app)
-		8.Terminar página de portafolio
+		8.Terminar página de Mimame (Empresa que se dedica a hacer mimos a domicilio o en publico se cobra por horas)
 		9.Terminar los videos de desarrollo web dinamico
 		10.Terminar página de Apetitus
 		11.Terminar página de Funpp (preparar interfaz para crear app)
@@ -22,7 +23,14 @@
 
 			Checklist del día:
 
-		1. Terminar la parte de responsive de la página.
-		2. Hacer que el formulario de contacto sirva.
-		3. Terminar las partes copiadas de Tienda y Donaciones.
+		1. Terminar la parte de responsive de la página.(Listo)
+		2. Terminar las partes copiadas del blog, la Tienda y Donaciones. (antes terminar con los puntos 1 y 2 del checklist sin Internet)
+		3. Hacer que el formulario de contacto sirva. 
 		4. Poner redes sociales de nosotros y en la columna 1 abajo botones.
+
+			Check list sin Internet:
+
+		1. Crear contenido para el blog. (mirar en crear-contenido.txt y en ideas.txt)
+		2. Crear los productos para la tienda. (Revisar en las libretas y en el contenido del blog para recojer ideas).
+		3. poner enlace para mostrar página con los cursos ordenados y otro con las categorias ordenadas.
+		4. hacer las páginas de los enlaces del punto 3.

@@ -5,12 +5,11 @@
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 			<meta charset="utf-8">
 			<link rel="shorcut icon" href="../img/logo_sin_fondo.png">
-			<link rel="stylesheet" type="text/css" href="../css/mitalento.css">
-			<link rel="stylesheet" type="text/css" href="../css/animate.css">
+			<link rel="stylesheet" type="text/css" href="../css/mitalento.min.css">
 	</head>
 	<body>
 		<div>
-			<div class="caja animated fadeIn">
+			<div class="caja">
 				<header id="header" class="header contenedor_cabeza">
 					<figure class="logo">
 						<img src="../img/logo_sin_fondo.png" id="logo" width="80"  alt="Logo Mi Talento">
@@ -46,7 +45,7 @@
 			<section class="articulos">
 				<a href="#">
 					<article class="articulos_pasados">
-						<img src="../img/ojomoney.png" width="300">
+						<img data-original="../img/ojomoney.png" width="300" class="lazy">
 						<div>
 							<h3>Articulo pasado</h3>
 							<div class="autor">
@@ -60,7 +59,7 @@
 				</a>
 				<a href="#">
 					<article class="articulos_pasados">
-						<img src="../img/ojomoney.png" width="300">
+						<img data-original="../img/ojomoney.png" width="300" class="lazy">
 						<div>
 							<h3>Articulo pasado</h3>
 							<div class="autor">
@@ -74,7 +73,7 @@
 				</a>
 				<a href="#">
 					<article class="articulos_pasados">
-						<img src="../img/ojomoney.png" width="300">
+						<img data-original="../img/ojomoney.png" width="300" class="lazy">
 						<div>
 							<h3>Articulo pasado</h3>
 							<div class="autor">
@@ -88,7 +87,7 @@
 				</a>
 				<a href="#">
 					<article class="articulos_pasados">
-						<img src="../img/ojomoney.png" width="300">
+						<img data-original="../img/ojomoney.png" width="300" class="lazy">
 						<div>
 							<h3>Articulo pasado</h3>
 							<div class="autor">
@@ -102,7 +101,7 @@
 				</a>
 				<a href="#">
 					<article class="articulos_pasados">
-						<img src="../img/ojomoney.png" width="300">
+						<img data-original="../img/ojomoney.png" width="300" class="lazy">
 						<div>
 							<h3>Articulo pasado</h3>
 							<div class="autor">
@@ -116,7 +115,7 @@
 				</a>
 				<a href="#">
 					<article class="articulos_pasados">
-						<img src="../img/ojomoney.png" width="300">
+						<img data-original="../img/ojomoney.png" width="300" class="lazy">
 						<div>
 							<h3>Articulo pasado</h3>
 							<div class="autor">
@@ -130,7 +129,7 @@
 				</a>
 				<a href="#">
 					<article class="articulos_pasados">
-						<img src="../img/ojomoney.png" width="300">
+						<img data-original="../img/ojomoney.png" width="300" class="lazy">
 						<div>
 							<h3>Articulo pasado</h3>
 							<div class="autor">
@@ -144,7 +143,7 @@
 				</a>
 				<a href="#">
 					<article class="articulos_pasados">
-						<img src="../img/ojomoney.png" width="300">
+						<img data-original="../img/ojomoney.png" width="300" class="lazy">
 						<div>
 							<h3>Articulo pasado</h3>
 							<div class="autor">
@@ -158,7 +157,7 @@
 				</a>
 				<a href="#">
 					<article class="articulos_pasados">
-						<img src="../img/ojomoney.png" width="300">
+						<img data-original="../img/ojomoney.png" width="300" class="lazy">
 						<div>
 							<h3>Articulo pasado</h3>
 							<div class="autor">
@@ -172,7 +171,7 @@
 				</a>
 				<a href="#">
 					<article class="articulos_pasados">
-						<img src="../img/ojomoney.png" width="300">
+						<img data-original="../img/ojomoney.png" width="300" class="lazy">
 						<div>
 							<h3>Articulo pasado</h3>
 							<div class="autor">
@@ -186,7 +185,7 @@
 				</a>
 				<a href="#">
 					<article class="articulos_pasados">
-						<img src="../img/ojomoney.png" width="300">
+						<img data-original="../img/ojomoney.png" width="300" class="lazy">
 						<div>
 							<h3>Articulo pasado</h3>
 							<div class="autor">
@@ -200,7 +199,7 @@
 				</a>
 				<a href="#">
 					<article class="articulos_pasados">
-						<img src="../img/ojomoney.png" width="300">
+						<img data-original="../img/ojomoney.png" width="300" class="lazy">
 						<div>
 							<h3>Articulo pasado</h3>
 							<div class="autor">
@@ -248,7 +247,7 @@
 				<footer id="footer" class="footer">
 			<div class="contenedor_footer">
 				<div class="contacto">
-					<img src="../img/sin_fondo.png" class="img_footer" width="120" height="130">
+					<img data-original="../img/sin_fondo.png" class="img_footer lazy" width="120" height="130">
 					<div class="orden">
 						<a href="tel:+573008865375"><strong>Teléfono</strong><span>+(57) 300 886 5375</span></a>
 						<a href="mailto:mitalentom@gmail.com"><strong>Email</strong><span>mitalentom@gmail.com</span></a>
@@ -296,6 +295,9 @@
 		<div class="derechos">
 			<h3> &copy;Copyright <span>Mi Talento</span>  2017 Todos los derechos reservados. <h3>
 		</div>
+		<script src="../js/jquery.min.js"></script>
+		<script src="../js/jquery.lazyload.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
 		<script src="../js/script.js"></script>
 	</body>
 </html>

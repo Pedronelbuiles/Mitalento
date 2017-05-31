@@ -8,9 +8,9 @@ Awake at night and scheme
 Of all the things that you would change,
 But it was just a dream!
 
-Here we are, don't turn away now,
-We are the warriors that built this town.
-Here we are, don't turn away now,
+Here we are, don't turn away now, (don't turn away!)
+We are the warriors that built this town. [oooooooooooooo]
+Here we are, don't turn away now, (don't turn away!) [oooooooooooooo]
 We are the warriors that built this town
 From dust.
 
@@ -24,14 +24,14 @@ But don't weep for me
 'Cause this will be
 The labor of my love
 
-Here we are, don't turn away now,
-We are the warriors that built this town.
-Here we are, don't turn away now,
+Here we are, don't turn away now, (don't turn away!)
+We are the warriors that built this town. [oooooooooooooo]
+Here we are, don't turn away now, (don't turn away!) [oooooooooooooo]
 We are the warriors that built this town
 From dust.
 
-Here we are, don't turn away now,
-We are the warriors that built this town.
-Here we are, don't turn away now,
-We are the warriors that built this town
-From dust.
+Here we are, don't turn away now, (don't turn away!) [oooooooooooooo]
+We are the warriors that built this town. [oooooooooooooo]
+Here we are, don't turn away now, (don't turn away!) [oooooooooooooo]
+We are the warriors that built this town  [oooooooooooooo]
+From dust. [oooooooooooooo]
