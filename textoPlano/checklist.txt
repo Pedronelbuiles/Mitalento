@@ -25,8 +25,8 @@
 
 		1. Terminar la parte de responsive de la página.(Listo)
 		2. Terminar las partes copiadas del blog, la Tienda y Donaciones. (antes terminar con los puntos 1 y 2 del checklist sin Internet)
-		3. Hacer que el formulario de contacto sirva. 
-		4. Poner redes sociales de nosotros y en la columna 1 abajo botones.
+		3. Hacer que el formulario de contacto sirva. (para hacerlo hagamoslo con node [https://www.youtube.com/watch?v=t3IPhCJYP7Y], mira los videos de programación dinamica para que completemos la página de una vez.)
+		4. Poner redes sociales de nosotros y en la columna 1 abajo botones. ()
 
 			Check list sin Internet:
 
