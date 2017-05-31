@@ -442,6 +442,10 @@ p{
 	margin-top: 10px;
 }
 
+.btn-redes{
+	margin: auto;
+}
+
 /*Estilos del blog*/
 .articulo_pincipal{
 	position: relative;
