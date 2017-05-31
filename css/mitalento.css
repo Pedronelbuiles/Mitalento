@@ -443,6 +443,7 @@ p{
 }
 
 .btn-redes{
+	display: block;
 	margin: auto;
 }
 
