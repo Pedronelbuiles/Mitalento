@@ -939,6 +939,12 @@ p{
 	transform: scale(1.1);
 	transition: .4s;
 }
+
+.btnGrandes{
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 20px;
+}
 /*Estilos de nosotros*/
 
 /*Animaciones*/
