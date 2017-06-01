@@ -955,7 +955,7 @@ p{
 
 /*Estilos de los blogs*/
 .imgPrinci{
-	max-width: 1000px;
+	max-width: 1200px;
 	position: relative;
 	top: 120px;
 	margin: auto;
@@ -966,7 +966,7 @@ p{
 .imgPrinci img{
 	width: 100%;
 	position: relative;
-	top: -190px;
+	top: -252px;
 }
 .Titulo{
 	position: absolute;
