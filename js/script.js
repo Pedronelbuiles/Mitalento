@@ -7,7 +7,7 @@ function addClass () {
 	$btnMenu.classList.toggle('icon-close')
 };
 
-$("img.lazy").lazyload();
+$(".lazy").lazyload();
 
 var toch = new Hammer($btnMenu, myOptions);
 toch.on('pan', addClass);
