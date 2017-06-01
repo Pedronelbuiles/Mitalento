@@ -943,7 +943,9 @@ p{
 .btnGrandes{
 	display: flex;
 	justify-content: space-around;
+	margin: auto;
 	margin-bottom: 20px;
+	width: 400px;
 }
 /*Estilos de nosotros*/
 
