@@ -1,9 +1,9 @@
 				Cosas para realizar:
 
 
-		1.Terminar los videos de desarrollo web (listo, falta casi todo el ultimo desafio de centrar).
+		1.Terminar los videos de desarrollo web (falta casi todo el ultimo desafio de centrar).
 		2.Terminar los videos de responsive desing (aplicando lo aprendido en Mi talento)
-		2.1 Terminar la página de Mi talento  (Casi listo falta completar el contenido y el checklist del dia).
+		2.1 Terminar la página de Mi talento  (falta completar el contenido y el !checklist del dia).
 		2.2 Terminar página de portafolio
 		3.Terminar la página de Websol
 		4.Inscribir Mi talento en https://docs.google.com/forms/d/17AVOpGIVzBsxuHZNWCL_Y7RYNs5VTTVDn_sfyt1z93U/viewform?edit_requested=true
@@ -26,11 +26,11 @@
 		1. Terminar la parte de responsive de la página.(Listo)
 		2. Terminar las partes copiadas del blog, la Tienda y Donaciones. (antes terminar con los puntos 1 y 2 del checklist sin Internet)
 		3. Hacer que el formulario de contacto sirva. (para hacerlo hagamoslo con node [https://www.youtube.com/watch?v=t3IPhCJYP7Y], mira los videos de programación dinamica para que completemos la página de una vez.)
-		4. Poner redes sociales de nosotros y en la columna 1 abajo botones. ()
+		4. Poner redes sociales de nosotros y en el formulario abajo botones. (Falta las redes de Nosotros).
 
 			Check list sin Internet:
 
-		1. Crear contenido para el blog. (mirar en crear-contenido.txt y en ideas.txt)
-		2. Crear los productos para la tienda. (Revisar en las libretas y en el contenido del blog para recojer ideas).
+		1. Crear contenido para el blog. (mirar en crear-contenido.txt)
+		2. Crear los productos para la tienda. (Revisar en las libretas y en el contenido del blog para recojer ideas)
 		3. poner enlace para mostrar página con los cursos ordenados y otro con las categorias ordenadas.
 		4. hacer las páginas de los enlaces del punto 3.
