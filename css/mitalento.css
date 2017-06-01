@@ -953,6 +953,52 @@ p{
 }
 /*Estilos de nosotros*/
 
+/*Estilos de los blogs*/
+.imgPrinci{
+	max-width: 1000px;
+	position: relative;
+	top: 120px;
+	margin: auto;
+	height: 402px;
+	overflow: hidden;
+	border-radius: 20px;
+}
+.imgPrinci img{
+	width: 100%;
+	position: relative;
+	top: -190px;
+}
+.Titulo{
+	position: absolute;
+	bottom: 40px;
+	margin: auto;
+	color: white;
+	font-size: 1.9em;
+	font-family: 'Monotype corsiva', sans-serif;
+	width: 100%;
+	text-align: center;
+}
+.cuerpo{
+	border: 1px solid black;
+	border-radius: 35px 0 35px 0;
+	font-family: 'Myriad pro', sans-serif;
+	max-width: 1000px;
+	position: relative;
+	top: 120px;
+	margin: 20px auto;
+	padding: 10px;
+	line-height: 17px;
+}
+.primerHijo{
+	margin-top: 50px;
+}
+
+.reset{
+	text-decoration: none;
+	color: darkslategray;
+}
+/*Estilos de los blogs*/
+
 /*Animaciones*/
 
 @keyframes rotar{
@@ -960,7 +1006,7 @@ p{
 		transform: rotate(360deg);
 		transform: ease-in-out;
 	}
-}
+}	
 
 @keyframes grandePequeno{
 	50%{
