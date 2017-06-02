@@ -26,6 +26,7 @@
 		1. Terminar la parte de responsive de la página.(Falta hacer responsive los articulos)
 		2. Terminar las partes copiadas del blog, la Tienda y Donaciones. (antes terminar con los puntos 1 y 2 del checklist sin Internet)
 		3. Hacer que el formulario de contacto sirva. (para hacerlo hagamoslo con node [https://www.youtube.com/watch?v=t3IPhCJYP7Y], mira los videos de programación dinamica para que completemos la página de una vez.)
+		!por ahora poner que el boton del formulario los lleve a la fanpage de facebook hasta que sirva
 		4. Poner redes sociales de nosotros y en el formulario abajo botones. (¡Listo!).
 		5. Poner los estilos de facebook para compartir la pagina buscar en la documentación https://developers.facebook.com/docs/sharing/webmasters
 
