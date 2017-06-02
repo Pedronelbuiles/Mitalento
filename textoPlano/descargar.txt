@@ -21,3 +21,6 @@ Contraeña:www.bacterias.mx
 
 Curso profesional de nodejs y javascript
 	https://mega.nz/#F!ID4H3AAa!OhMhSZexh8SGl-3D915cog
+
+Curso de desarrollo web con angular 2
+	https://www.mediafire.com/folder/jnqkgolxwf3g8/des_web_Angular

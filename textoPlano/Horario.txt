@@ -1,0 +1,56 @@
+		Fecha 6/2/2017:
+
+			hora:1:00 Pm 
+				Paginas permitidas:
+					-Todas.
+				Descripción:
+					-termine de revisar todas las redes sociales, hago el horario del día.
+					-Me desplazo a comer algo y buscar un lugar con internet.
+
+			hora: 2:00pm
+				Páginas permitidas:
+					-Youtube
+					-Google
+					-Mi talento
+				Descripción:
+					-Hacer contenido para el blog según la lista de ideas que tengo.
+					-Montarlo faltando 15 minutos para acabar.
+				Duración:
+					-2 (dos) horas.
+
+			hora: 4:00pm
+				Páginas permitidas:
+					-Google
+					-página de contrucción.
+				Descipción: 
+					-Hacer el curso de Front end con Boostrap y Foundation.
+				Duración:
+					-1 (una) hora.
+
+			hora: 5:00pm
+				Páginas permitidas:
+					-Google.
+					-Doulingo.
+				Descipción: 
+					-Estudiar Ingles la mitad del tiempo con duolingo y la mitad con youtube.
+				Duración:
+					-1 (una) hora.
+
+			hora: 6:00pm
+				Páginas permitidas:
+					-Todas
+				Descipción: 
+					-Revisar las redes sociales.
+					-Montar la esrucuta para publicar Mi talento.
+				Duración:
+					-1 (una) hora.
+
+			hora: 7:00pm
+				Páginas permitidas:
+					-Todas
+				Descipción: 
+					-Hacer un estado para verificar la fecha de publicación de la plataforma.
+					-Verificar si la plataforma puede ser subida hoy mismo.
+				Duración:
+					-hasta que me saquen.
+
