@@ -6,6 +6,7 @@
 		2.1 Terminar la página de Mi talento  (falta completar el contenido y el !checklist del dia).
 		2.2 Terminar página de portafolio
 		3.Terminar la página de Websol
+		3.3 Terminar págna de mistery shopers, llamada señores x.
 		4.Inscribir Mi talento en https://docs.google.com/forms/d/17AVOpGIVzBsxuHZNWCL_Y7RYNs5VTTVDn_sfyt1z93U/viewform?edit_requested=true
 		5.Terminar página de Regalos para Medellin
 		5.0 Terminar la plataforma de discipline
@@ -29,10 +30,12 @@
 		!por ahora poner que el boton del formulario los lleve a la fanpage de facebook hasta que sirva
 		4. Poner redes sociales de nosotros y en el formulario abajo botones. (¡Listo!).
 		5.Mirar el horario.!!!
+		6. Terminar los cursos de front end, desarrollo de email el de desarrollo web dinamico, el de angular, 
+		. Terminar págna de mistery shopers, llamada señores x.
 
 			Check list sin Internet:
-
+										!Importante cambiar las palabras cursos por guias!
 		1. Crear contenido para el blog. (mirar en crear-contenido.txt)
-		2. Crear los productos para la tienda. (Revisar en las libretas y en el contenido del blog para recojer ideas)
+		2. Crear los productos para la tienda. (Asesoria de 2 semanas valor 60.000 y las 4 semanas por 100.000 asesoria [generar ingresos por Internet]) (Revisar en las libretas y en el contenido del blog para recojer ideas)
 		3. poner enlace para mostrar página con los cursos ordenados y otro con las categorias ordenadas.
 		4. hacer las páginas de los enlaces del punto 3.
