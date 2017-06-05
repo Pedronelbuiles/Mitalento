@@ -918,10 +918,12 @@ p{
 .mediosDePago p{
 	color: white;
 	margin: 0;
+	margin-top: 10px;
 }
 
 .mediosDePago div img{
 	padding: 0 5px 0 0;
+	border-radius: 10px;
 }
 
 .tienda{
