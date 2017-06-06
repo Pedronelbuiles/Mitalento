@@ -686,6 +686,10 @@ p{
 	text-align: center;
 }
 
+.centro{
+	margin-top: 50px;
+}
+
 .centro table{
 	margin: auto;
 }
@@ -713,10 +717,10 @@ p{
 	bottom: 20px;
 }
 
-.redesS{
-	display: flex;
-	justify-content: space-around;
+.imgBanco{
+	text-align: center;
 }
+
 /*Estilos de donaciones*/
 
 /*Estilos de la tienda*/
@@ -1278,6 +1282,9 @@ p{
 		left: 20px;
 		font-size: 15px;
 		top: 95px;
+	}
+	.imgPrinci img{
+		top: 0 !important;
 	}
 	/*Estilos del contenido*/
 }

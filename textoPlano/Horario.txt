@@ -54,3 +54,27 @@
 				Duración:
 					-hasta que me saquen.
 
+		Fecha 6/6/2017
+
+			hora: 11:30 AM
+			Páginas permitidas:
+				Paypal
+				Payu
+			Descripción:
+				-Poner los botones de pago correspondientes al producto en cada página de /shop (¡Listo!)
+				-Botones de paypal, payu. (¡Listo!)
+				-Poner las imagenes de los bancos BBVA y Davivienda para el daviplata y donaciones.(¡Listo!)
+			Duración:
+				-Hasta que termine.
+				Finalizo a las 1:06 PM
+
+			Hora: cuando termine lo de las 11:30
+				Páginas permitidas:
+					-gmail
+					-platzi
+				Descripción:
+					-Hacer tantos cursos como pueda no despegarme de eso!!!
+					-Ir montando en redes sociales de Mi talento la pagina terminada.
+				Duración:
+					-Todo el día, vendiendo y estudiando.
+				Duración
