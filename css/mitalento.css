@@ -471,6 +471,45 @@ p{
 	max-width: 1000px;
 }
 
+.partes{
+	max-width: 500px;
+	position: relative;
+	top: 130px;
+	display: flex;
+	text-align: center;
+	justify-content: space-around;
+	margin: 0 auto
+}
+
+.btn-articulos, .guias{
+	padding: 10px;
+	border: 3px solid lightgray;
+	border-radius: 10px;
+	background-color: black;
+	line-height: 20px;
+	font-family: 'Comic sans MS', sans-serif;
+	cursor: pointer;
+}
+
+.btn-articulos a, .guias a{
+	color: white;
+	text-decoration: none;
+}
+
+#articulos:hover, #guias:hover{
+	background-color: lightgray;
+	transition: .5s;
+}
+
+.activado{
+	background-color: lightgrey;
+	border-color: black;
+}
+
+.activado a{
+	color: black;
+}
+
 .img_principal{
 	width: 100%;
 }
@@ -570,7 +609,7 @@ p{
 
 .lugar{
 	background-color: white;
-	cursor: not-allowed;
+	cursor: pointer;
 }
 
 .autor{
