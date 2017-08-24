@@ -1,0 +1,23 @@
+.cabecera{
+	border: red 2px solid;
+}
+
+.opciones{
+	padding-top: 40px;
+}
+
+.logo, .logo-footer{
+	text-align: center;
+}
+
+.logo img{	
+	width: 75%;
+}
+
+.logo-footer img{
+	width: 100%;
+}
+
+.espacio{
+	height: 400px;
+}
