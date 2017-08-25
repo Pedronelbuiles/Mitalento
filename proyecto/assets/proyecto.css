@@ -1,6 +1,8 @@
-.cabecera{
-	border: red 2px solid;
+header{
+	font-family: 'Slabo 27px', serif;
 }
+
+
 
 .opciones{
 	padding-top: 40px;
@@ -15,10 +17,19 @@
 }
 
 .logo-footer img{
-	width: 70%;
+	width: 50%;
 	padding-left: 0;
 }
 
 .espacio{
 	height: 400px;
+}
+
+.btn-depsis{
+	width: max-content;
+}
+
+a.dropdown-item:hover{
+	background-color: #0275d8;
+	color: white;
 }
