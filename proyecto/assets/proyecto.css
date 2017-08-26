@@ -46,10 +46,28 @@ a.dropdown-item:hover{
     text-align: center;
 }
 
+.titulo_texto{
+    margin-bottom: 25px;
+}
+
 .primerTexto{
     margin-top: 140px;
 }
+.img_team{
+    width: 340px;
+    border-radius: 5px;
+    float: left;
+}
+.texto{
+    margin-left: 355px;
+    font-size: 1.15rem;
+}
 
+.concepto{
+    margin-top: 35px;
+    text-align: center;
+    font-size: 1.29rem;
+}
 /* estilos del video de nosotros*/
 
 .homepage-hero-module {
