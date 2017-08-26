@@ -23,10 +23,6 @@ header{
 	padding-left: 0;
 }
 
-.espacio{
-	height: 400px;
-}
-
 .btn-depsis{
 	width: max-content;
 }
@@ -34,6 +30,24 @@ header{
 a.dropdown-item:hover{
 	background-color: #0275d8;
 	color: white;
+}
+
+.resalto{
+    z-index: 200;
+}
+
+.titulo{
+    display: block;
+    color: white;
+}
+
+.flex{
+    display: block !important;
+    text-align: center;
+}
+
+.primerTexto{
+    margin-top: 140px;
 }
 
 /* estilos del video de nosotros*/
@@ -55,7 +69,7 @@ a.dropdown-item:hover{
     position: relative;
     bottom: 0%;
     left: 0%;
-    height: 85%;
+    height: 100%;
     width: 100%;
     overflow: hidden;
     background: #000;
@@ -68,7 +82,6 @@ a.dropdown-item:hover{
 .video-container .filter {
     z-index: 100;
     position: absolute;
-    background: rgba(0, 0, 0, 0.4);
     width: 100%;
 }
 .video-container video {
@@ -76,7 +89,31 @@ a.dropdown-item:hover{
     z-index: 0;
     bottom: 0;
 }
+
+.filter img{
+    margin-top: 30%;
+}
+
 /*.video-container video.fillWidth {
     width: 100%;
 }*/
 /* estilos del video de nosotros*/
+
+/* menu sticky*/
+.main-nav{
+  position: relative; 
+}
+.main-nav {
+  background: #fff;
+  height: 123px;
+  z-index: 150;
+  margin-bottom: -80px;
+}
+
+.main-nav-scrolled {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+/* menu sticky*/
+
