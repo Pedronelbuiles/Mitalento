@@ -2,6 +2,14 @@
 	border: red 2px solid;
 }
 
+.mb{
+    margin-bottom: 15px;
+}
+
+.mt{
+    margin-top: 15px
+}
+
 .opciones{
 	padding-top: 40px;
 }
@@ -154,3 +162,8 @@ a.dropdown-item:hover{
 }
 /* menu sticky*/
 
+/* reestableciendo valores de bootstrap*/
+.card-header{
+    background-color: #0275d8 !important;
+    color: white;
+}
