@@ -172,7 +172,7 @@ a.dropdown-item:hover{
 
 /*estilos de masinfo*/
 
-.masinfo h3{
+.masinfo h3, .nombre_servicio h3{
     margin-top: 200px;
     text-align: center;
     margin-bottom: 50px;
@@ -186,7 +186,7 @@ a.dropdown-item:hover{
     font-size: 1.2rem;
 }
 
-.precios, .terminosYcondiciones, .pagos, .infoImpor, .cotizacion{
+.precios, .terminosYcondiciones, .pagos, .infoImpor, .cotizacion, .explicacion, .contenido_servicio, .tareas{
     margin-top: 40px;
 }
 
@@ -194,3 +194,10 @@ a.dropdown-item:hover{
     text-align: center;
     margin-bottom: 40px;
 }
+/*estilos de masinfo*/
+
+.cotizar{
+    margin-top: 80px;
+    text-align: center;
+}
+
